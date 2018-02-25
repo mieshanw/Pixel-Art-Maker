@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-color: white;
+  font-family: "Raleway Dots", cursive;
+  font-size: 70px;
+  margin: 0.2em;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin: 1em 0 0.25em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: white;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type="number"] {
+  width: 6em;
+}
+
+.btn {
+  background-color: #14213d;
+  color: #fff;
+  font-family: "Raleway Dots", cursive;
+  font-size: 15px;
+  padding: 10px;
+  background-image: -webkit-linear-gradient(#17bebb, #d81159);
+}
+
+#title {
+  background-color: black;
+  background-image: -webkit-linear-gradient(#17bebb, #d81159);
+}

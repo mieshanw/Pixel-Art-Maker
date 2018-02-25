@@ -1,0 +1,33 @@
+​<html>
+<!--Google Udacity Project: 
+Miesha Williams - Spring 2018 
+Front End Web Development Track -->
+
+<head>
+  <title>Pixel Art Maker</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway|Raleway+Dots" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="title">
+    <h1>Pixel Art Maker</h1>
+  </div>
+  <h2>Resize Your Grid:</h2>
+  <form id="sizePicker">
+    Grid Height:
+    <input type="number" id="inputHeight" name="height" min="1" value="1"> Grid Width:
+    <input type="number" id="inputWidth" name="width" min="1" value="1">
+    <input type="submit" class="btn">
+  </form>
+
+  <h2>Pick Your Paint:</h2>
+  <input type="color" id="colorPicker" value="#17BEBB">
+
+  <h2>Design Canvas</h2>
+  <table id="pixelCanvas"></table>
+<script src="design.js"></script>
+</body>
+
+</html>
